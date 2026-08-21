@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int cp;
+    int cp;    //cp = cost price, sp = sell price
     cout << "Enter Cost Price: ";
     cin >> cp;
     int sp;
