@@ -1,5 +1,6 @@
 
 //0 1 1 2 3 5 8 13 21...
+//Formula:   F(n) = F(n-1) + F(n-2)
 #include <iostream>
 using namespace std;
 int fibonacci(int n){
