@@ -39,7 +39,7 @@ int main() {
     cout << "Subject: " << t1.subject << endl;
     cout << "Salary: " << t1.getSalary() << endl;
 
-    // t1.changeDept("Software Engineering");
-    // cout << "New Department: " << t1.dept << endl;
+    t1.changeDept("Software Engineering");
+    cout << "New Department: " << t1.dept << endl;
     return 0;
 }
