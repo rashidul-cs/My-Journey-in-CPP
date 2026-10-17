@@ -23,7 +23,7 @@ class Teacher {
 };
 int main(){
     Teacher t1("Rashidul", "CSE", "C++", 78000);
-    Teacher t2(t1);
+    Teacher t2(t1);    //Default Copy Constructor Invoke
     t2.get_info();
     return 0;
 }
